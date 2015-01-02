@@ -9,6 +9,8 @@ development:
   host: localhost
   username: postgres
   password: media3
+  poll: 25
+
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

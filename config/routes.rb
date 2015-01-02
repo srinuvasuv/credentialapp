@@ -1,4 +1,27 @@
 Rails.application.routes.draw do
+  
+  # get 'view/viewind'
+
+  get 'view/viewall'
+
+  #get 'home/home'
+
+  # root 'home#home'
+
+  root :to => 'home#home'
+
+  get 'signup', to: 'credential#signup', as: 'register'
+
+  get 'login', to: 'credential#login', as: 'login'
+
+  post 'signin', to: 'credential#login1', as: 'signinp'
+  
+  get 'viewpersonaldetails', to: 'view#viewind', as: 'viewper'
+
+  match 'logout', to: 'credential#logout', via: [:get, :post], as: 'logout'
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

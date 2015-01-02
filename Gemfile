@@ -13,6 +13,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+gem 'byebug', '~> 3.5.1'
+gem 'pry-byebug', '~> 2.0.0'
+gem 'ezcrypto'
+gem 'better_errors' 
+gem 'binding_of_caller'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

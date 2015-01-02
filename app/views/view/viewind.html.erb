@@ -1,0 +1,54 @@
+<div class="container">
+	<div class="row">
+
+	<div class="panel panel-default">
+
+		 <div class="panel-heading">
+      	    View Details of <%= $login_details[0].name %>
+   	    </div>
+   	  <div class="panel-body">
+   	  	<div class="row">
+   	  		<div class="col-xs-4">
+   	  			
+   	  		</div>
+   	  		<div class="col-xs-6">
+   	  		<table class="table">
+   	  		<thead>
+   	  			<tr>
+	   	  			<th>Sno</th>
+	   	  			<th>Name</th>
+	   	  			<th>Email</th>
+	   	  			<th>Gender</th>
+	   	  			<th>Address</th>
+	   	  			<th>Phone Number</th>
+   	  			</tr>
+   	  		</thead>
+   	  		<tbody>
+   	  			<tr>
+   	  				<td> <%= session[:userid]   %>  </td>
+   	  				<td><%= $login_details[0].name %></td>
+   	  				<td><%= $login_details[0].gender %></td>
+   	  				<td><%= $login_details[0].email %></td>
+   	  				<td><%= $login_details[0].phno  %></td>
+   	  				<td><%= $login_details[0].addrs  %></td>
+   	 	  		</tr>
+
+   	  			
+   	  		</tbody>
+   	  			
+   	  		</table>
+   	 
+
+
+   	  		</div>
+
+   	  		
+   	  	</div>
+   	  </div>
+
+		
+	</div>
+		
+	</div>
+	
+</div>
